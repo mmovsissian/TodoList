@@ -1,0 +1,180 @@
+
+body {
+    background: lightgrey;
+}
+
+.page {
+
+}
+
+.header {
+    background: lightslategrey;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../Images/download.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    min-width: 780px;
+}
+
+.todo {
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.flexcontainer {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    /*flex: auto;*/
+    flex-direction: row;
+    height: 50px;
+    /*justify-content: space-between;*/
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-width: 700px;
+
+
+}
+
+.input-container {
+    display: flex;
+    flex-basis: 30%;
+}
+
+.search-container {
+    display: flex;
+    flex-basis: 20%;
+}
+
+.delete-container {
+    flex-basis: 15%;
+}
+
+#name-input {
+    width: 80%;
+    height: 50%;
+}
+
+#addButton {
+    height: 60%;
+}
+
+#search-input {
+    height: 50%;
+    width: 70%;
+}
+
+.list-container {
+
+}
+
+#list {
+    padding: 8px 8px 8px 8px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    border-radius: 5px;
+    min-width: 700px;
+}
+
+
+.listItem {
+    position: relative;
+    padding: 2px 2px 2px 2px;
+    border-bottom-width: 2px;
+    list-style-type: none;
+    transition: 0.2s;
+    background: lightgrey;
+    border-radius: 5px;
+    min-width: 700px;
+}
+
+.listItem:hover {
+    background: dimgrey;
+}
+
+.selectedListItem {
+}
+
+
+.listDiv {
+    display: flex;
+    flex-direction: row;
+
+    align-items: stretch;
+
+    background: grey;
+    height: 100%;
+    min-height: 10px;
+}
+
+.listDivComplete {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: inherit;
+    justify-content: center;
+    background: forestgreen;
+    height: 100%;
+    min-height: 10px;
+}
+
+.inputContainer {
+    margin-left: 20px;
+    height: 100%;
+    border-right-width: 5px;
+    min-width: 400px;
+    align-self: center;
+    order: 1;
+    flex-basis: 90%;
+}
+
+.removeButton {
+    margin-left: 2%;
+    align-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 16px;
+    align-self: center;
+    order: 3;
+
+
+}
+
+
+.complete {
+    cursor: pointer;
+    margin-left: 20px;
+    /*height: 100%;*/
+    background-color: #eeeeee;
+    border-radius: 8px;
+    align-self: center;
+    order: 2;
+
+
+}
+
+#deleteStorage {
+    justify-content: center;
+    align-content: center;
+    vertical-align: central;
+    display: table-cell;
+    width: 100%;
+
+}
+
+.textholder {
+    text-align: left;
+    width: 64%;
+    align-content: center;
+}
+
+.windowsImage {
+    height: 150%;
+}
